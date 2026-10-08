@@ -1,6 +1,6 @@
 # Transitions: Caterpillar to Butterfly
 
-This is a caterpillar to butterfly animation I made for the ESP32 TTGO T-Display, for our Module 1 "Transitions" installation in COMS BC 3930. A caterpillar crawls in, turns into a chrysalis, and then comes out as a blue butterfly and flies away, on a loop.
+This is a caterpillar to butterfly animation I made for the ESP32 TTGO T-Display, for our Module 1 "Transitions" installation in COMS BC 3930. A caterpillar crawls in, turns into a chrysalis, and then comes out as a orange butterfly and flies away, on a loop.
 
 **Blog post:** [add link here]
 
@@ -25,7 +25,7 @@ I hung my device in a small paper envelope, running off a battery, for the class
 - 1000 mAh Lithium rechargeable battery
 - USB cable (for uploading the code)
 - Small paper envelope (for hanging it in the installation)
-- Popsicle stick(for hanging it in the installation)
+- Popsicle stick (for hanging it in the installation)
 - String (for hanging it in the installation)
 
 ## Software
@@ -37,7 +37,7 @@ I hung my device in a small paper envelope, running off a battery, for the class
 
 1. Install the TFT_eSPI library.
 2. Tell TFT_eSPI which screen you have. In the library folder, open `User_Setup_Select.h`, comment out the line `#include <User_Setup.h>`, and uncomment the line `#include <User_Setups/Setup25_TTGO_T_Display.h>`. Save the file.
-3. Open `transitions/stages-of-butterfly.ino` in Arduino IDE.
+3. Open `stages-of-butterfly/stages-of-butterfly.ino` in Arduino IDE.
 4. Under Tools, choose the board ESP32 Dev Module and the port your board appears on.
 5. Click Upload.
 6. The animation starts right away. If it looks upside down, change `tft.setRotation(1)` to `tft.setRotation(3)`.
