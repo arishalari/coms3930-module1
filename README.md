@@ -55,7 +55,7 @@ A counter called `frame` goes up by 1 every time `loop()` runs. Each frame, the 
 
 At frame 900 the counter resets to 0 and the story repeats. One full loop takes about 30 seconds.
 
-## Customize it
+## What you can Customize
 
 - **Colors:** each color is a `tft.color565(red, green, blue)` call with values from 0 to 255.
 - **Speed:** change the `delay(20)` at the bottom of `loop()`. A smaller number is faster.
@@ -65,7 +65,7 @@ At frame 900 the counter resets to 0 and the story repeats. One full loop takes 
 ## Files
 
 ```
-transitions/
+stages-of-butterfly/
   stages-of-butterfly.ino
 media/
   demo.gif
