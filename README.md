@@ -2,7 +2,7 @@
 
 This is a caterpillar to butterfly animation I made for the ESP32 TTGO T-Display, for our Module 1 "Transitions" installation in COMS BC 3930. A caterpillar crawls in, turns into a chrysalis, and then comes out as a orange butterfly and flies away, on a loop.
 
-**Blog post:** [add link here]
+**Blog post:** [https://www.notion.so/Transitions-Caterpillar-to-Butterfly-3f46d5e59d3980e5bdeeeafc896b86bc?source=copy_link]
 
 ![Demo](media/demo.gif)
 
